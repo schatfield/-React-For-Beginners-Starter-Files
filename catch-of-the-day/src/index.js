@@ -1,21 +1,14 @@
-import React from 'react'; 
-import {render} from 'react-dom';
-import StorePicker from './components/StorePicker';
 
-render(<StorePicker />, document.querySelector('#main'));
+// let's go!
 
-// import React from "react";
+import React from "react";
+import { render } from "react-dom";
+//import StorePicker from "./components/StorePicker";
+import App from "./components/App.js";
+import "./css/style.css";
 
-// class StorePicker extends React.Component {
-//   render() {
-//     return (
-//       <form className="store-selector">
-//         <h2>Please Enter A Store</h2>
-//         <input type="text" required placeholder="Store Name" />
-//         <button type="submit">Visit Store →</button>
-//       </form>
-//     );
-//   }
-// }
+render(<App />, document.querySelector("#main"))
+
 
 // export default StorePicker;
+

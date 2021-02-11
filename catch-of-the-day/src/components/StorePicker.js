@@ -2,7 +2,7 @@ import React from 'react'; //import you ingredients
 
 //make the sausage
 class StorePicker extends React.Component {
-    render() {
+    render () {
         return <p>hello!</p>
     } 
 }
