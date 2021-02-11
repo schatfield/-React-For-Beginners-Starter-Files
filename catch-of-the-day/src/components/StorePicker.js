@@ -8,4 +8,6 @@ class StorePicker extends React.Component {
 }
 
 //surface the sausage to be available to the people (or your files)
+
 export default StorePicker;
+
